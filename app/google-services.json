@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "775339642956",
+    "project_id": "booksapp-62eec",
+    "storage_bucket": "booksapp-62eec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775339642956:android:9b645cbd44cb1f4bdea4e9",
+        "android_client_info": {
+          "package_name": "finki.booksapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbo94WvKPzYZ1uIF-DILsy3uerdJNLYsc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

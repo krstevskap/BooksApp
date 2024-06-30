@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Регистрирај се"
+                android:layout_marginTop="100dp"
+                android:textColor="@color/grey"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/emailText"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:hint="Емаил"
+                android:textAlignment="center"
+                android:background="@drawable/login_text_background"
+                android:layout_marginTop="50dp"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/registerPass"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:hint="Лозинка"
+                android:textAlignment="center"
+                android:background="@drawable/login_text_background"
+                android:layout_marginTop="30dp"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/registerPassRepeat"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:hint="Повтори лозинка"
+                android:textAlignment="center"
+                android:background="@drawable/login_text_background"
+                android:layout_marginTop="30dp"
+                android:inputType="textPassword" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/registerButton"
+                style="@android:style/Widget.Button"
+                android:layout_width="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:text="Регистрирај се"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:background="@drawable/get_started_button"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:textColor="@color/grey"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:text="Веќе имаш сметка?"/>
+
+            <TextView
+                android:id="@+id/loginBtnRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:textColor="@color/orange"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:text="Логирај се"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
